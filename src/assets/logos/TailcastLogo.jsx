@@ -1,3 +1,4 @@
+import React from "react";
 export const TailcastLogo = () => (
   <svg
     width="40"

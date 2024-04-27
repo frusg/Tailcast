@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "framer-motion";
 
 import feature1 from "../assets/images/feature1.jpg";
@@ -27,8 +28,8 @@ export const Features1 = () => {
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
                 Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
+                user-friendly platform. Transform your business needs with
+                actionable insights.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
