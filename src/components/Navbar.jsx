@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
+import { HeartLogo } from "../assets/logos/HeartLogo";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
@@ -27,10 +28,10 @@ export const Navbar = () => {
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+                <HeartLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                Intimitats Lia
               </div>
             </div>
           </a>
@@ -54,7 +55,7 @@ export const Navbar = () => {
             ))}
           </div>
         </motion.div>
-        <motion.div
+        {/*         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
@@ -72,7 +73,7 @@ export const Navbar = () => {
               <span className="pt-px">Source code</span>
             </a>
           </div>
-        </motion.div>
+        </motion.div> */}
         <div
           className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customDarkBg2"
           onClick={() => setIsOpen(!isOpen)}
